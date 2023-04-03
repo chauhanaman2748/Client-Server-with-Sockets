@@ -1,1 +1,3 @@
 # Client-Server-with-Sockets
+
+The client-server project allows a client to request a file or set of files from the server, which then searches for the file/s in its file directory rooted at its ~. The server then returns the tar.gz of the requested file/files to the client, or a suitable message if the file is not found. The project is designed to allow multiple clients to connect to the server from different machines and request file/s as per the commands listed in section 2. To ensure proper communication, the server, mirror, and client processes must run on separate machines and use sockets for communication.
